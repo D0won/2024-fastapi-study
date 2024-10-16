@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "2024-fastapi-study"
+version = "0.1.0"
+description = ""
+authors = ["D0won <ldwlee03@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.2"
+uvicorn = "^0.31.1"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
