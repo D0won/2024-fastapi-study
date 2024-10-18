@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Page</title>
+</head>
+<body>
+    <h1>Enter Action</h1>
+    <form action="/send_signal" method="post">
+        <label for="action">Action:</label>
+        <select name="action" id="action">
+            <option value="졸음운전">졸음운전</option>
+            <option value="음주운전">음주운전</option>
+            <option value="물건찾는다">물건찾는다</option>
+            <option value="통화">통화</option>
+            <option value="휴대폰 조작">휴대폰 조작</option>
+            <option value="운전자 폭행">운전자 폭행</option>
+        </select>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
